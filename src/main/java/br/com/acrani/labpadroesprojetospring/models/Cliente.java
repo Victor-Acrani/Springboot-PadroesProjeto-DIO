@@ -23,5 +23,4 @@ public class Cliente implements Serializable {
     private String nome;
     @ManyToOne
     private Endereco endereco;
-
 }
